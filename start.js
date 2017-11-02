@@ -12,7 +12,7 @@ db.connect(db.MODE_TEST, function(err) {
         console.log('Unable to connect to MySQL.')
         process.exit(1)
     } else {
-        app.listen(5000, function() {
+        app.listen(4000, function() {
             console.log('app listening...')
         })
         // app.listen(app.get('port'),function(){
